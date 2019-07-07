@@ -1,0 +1,250 @@
+@media (max-width: 1023px) {
+    header .main-header-container-1 {
+        max-width: 750px;
+        min-width: 620px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    header .main-header-container-2 {
+        max-width: 750px;
+        min-width: 610px;
+        width: 100%;
+    }
+    
+    header input[type="search"] {
+        width: 200px;
+    }
+
+    header .main-header-container-2 input[name="q"] {
+        max-width: 752px;
+        width: 100%;
+      }
+
+    header .main-header-container-1 a {
+        padding: 0;
+        margin-right: 5px;
+    }
+    
+    header .choosing-adress {
+        margin-right: 5px;
+        width: 300px;
+        justify-content: space-between;
+    }
+
+    header .choosing-adress p {
+        margin: 0;
+    }
+
+    header .communication-with-user {
+        max-width: 220px;
+        min-width: 200px;
+        padding-right: 10px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    header .communication-with-user a {
+        margin-left: 10px;
+    }
+
+    header .btn-reg {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    main .cards-container {
+        max-width: 752px;
+        min-width: 600px;
+        width: 100%;
+    }
+
+    main .card {
+        flex-basis: 49%;
+    }
+
+    main .card img {
+        height: 256px;
+    }
+
+    footer .language,
+    footer select {
+        width: 176px;
+    }
+}
+
+@media (max-width: 639px) {
+    header {
+        margin-bottom: 40px;
+    }
+
+    header .main-header-container-1 {
+        max-width: 320px;
+        min-width: 290px;
+    }
+
+    header .communication-with-user {
+        max-width: initial;
+        min-width: initial;
+        padding-right: 0;
+        width: initial;
+        justify-content: initial;
+    }
+
+    header .btn-reg {
+        margin-left: 12px;
+    }
+
+    header .main-header-container-2 {
+        max-width: 320px;
+        min-width: 290px;
+        width: 100%;
+    }
+
+    section .main-header-container-1 .main-header-logo {
+        margin-right: 32px;
+    }
+
+    .top-header .false-320 {
+        display: none;
+    }
+    
+    header .bottom-header .true-320 {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        margin: 0 auto;
+        max-width: 320px;
+        min-width: 290px;
+        width: 100%;
+    }
+
+    .true-320 form {
+        position: relative;
+    }
+
+    .true-320 form:before {
+        content: "To";
+        display: block;
+        position: absolute;
+        top: -20px;
+        left: 0;
+        font-size: 11px;
+        line-height: 13px;
+        color: #626262;
+    }
+
+    .asap {
+        margin-right: 16px;
+    }
+
+    .asap:before {
+        content: "When";
+        display: block;
+        position: absolute;
+        top: -20px;
+        font-size: 11px;
+        line-height: 13px;
+        color: #626262;
+        text-transform: none;
+    }
+
+    .true-320 form label::before {
+        content: url("images/location.svg");
+        display: block;
+        position: absolute;
+        top: 12px;
+        left: 12px;
+        width: 14px;
+        height: 15px;
+    }
+
+    header input[type="search"] {
+        max-width: 227px;
+        min-width: 215px;
+        width: 100%;
+    }
+
+    .top-header .communication-with-user button {
+        width: 72px;
+    }
+
+    .communication-with-user a[href="#"] {
+        display: none;
+    }
+    
+    header .main-header-container-2 {
+        margin-bottom: 45px;
+    }
+
+    main {
+        margin-top: 40px;
+        margin-bottom: 48px;
+    }
+
+    main .cards-container {
+        width: 311px;
+        min-width: auto;
+    }
+
+    main .card {
+        width: 100%;
+        flex-basis: 100%;
+    }
+
+    footer {
+        height: 880px;
+    }
+
+    footer select,
+    footer .language {
+        width: 173px;
+    }
+
+    footer .footer-col {
+        width: 100%;
+    }
+
+    footer .columns,
+    footer .terms {
+        display: block;
+    }
+
+    footer .columns {
+        padding-bottom: 40px;
+    }
+
+    .footer-col-1 {
+        margin-bottom: 43px;
+    }
+
+    .footer-col-2 {
+        margin-bottom: 23px;
+    }
+
+    .footer-links {
+        padding-top: 0;
+    }
+
+    footer .app-stores {
+        margin-top: 25px;
+        padding-bottom: 25px;
+    }
+    
+    footer .app-stores img[alt="GooglePlay"] {
+        width: 124px;
+    }
+
+    footer .app-stores img[alt="AppStore"] {
+        margin-right: 25px;
+        width: 107px;
+    }
+
+    footer .terms div {
+        margin-bottom: 24px;
+    }
+
+    footer .up-button {
+        padding: 21px 24px 19px;
+    }
+}
